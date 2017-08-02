@@ -1,0 +1,26 @@
+{
+    "name": "passport-ip-whitelist",
+    "version": "0.1.2",
+    "description": "Passport authentication strategy using ip whitelist",
+    "main": "./lib/passport-ip-whitelist",
+    "author": "Martijn van Waardhuizen",
+    "licenses": [
+        {
+            "type": "MIT",
+            "url": "http://www.opensource.org/licenses/MIT"
+        }
+    ],
+    "dependencies": {
+        "ip": "^1.1.0",
+        "passport": "~0.3.2",
+        "lodash": "^4.17.4"
+    },
+    "devDependencies": {
+        "chai": "^3.0.0",
+        "chai-passport-strategy": "^1.0.0",
+        "istanbul": "^0.4.5",
+        "mocha": "^3.0.0",
+        "pkginfo": "0.2.x",
+        "sinon": "^1.0.0"
+    }
+}
